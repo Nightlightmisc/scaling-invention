@@ -1,0 +1,102 @@
+body{
+    font-family: 'JetBrains Mono';
+    background-image: url(./style/pet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.div{
+    background-color: rgba(42, 54, 50, 0.6);
+    border: 5px solid #5a7493;
+    padding: 10px;
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 25px;
+    font-size: 20px;
+    float: left;
+    color: white;
+}
+
+.h1{
+    font-size: 50px;
+    color: rgb(195, 195, 195);
+    text-align: center;
+    animation-delay: 0ms;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(1rem);
+}
+
+.p{
+    color: rgb(111, 111, 201);
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.normal{
+    font-style: normal;
+    font-family: "Times New Roman";
+    color: azure;
+}
+
+.italic{
+    font-style: italic;
+    font-family: "Times New Roman";
+    color: azure;
+}
+
+.oblique{
+    font-style: oblique;
+    font-family: "Times New Roman";
+    color: azure;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: hotpink;
+}
+
+a:active{
+    color: rgb(0, 162, 255);
+}
+
+table{
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    padding: 10px;
+    text-align: center
+}
+
+.blink{
+    animation: blinker 1.5s linear infinite;
+    color: rgb(255, 87, 87);
+    font-size: 45px;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
